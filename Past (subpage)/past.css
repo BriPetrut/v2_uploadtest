@@ -1,0 +1,84 @@
+body {
+    padding-left: 15%;
+    padding-right: 15%;
+    /*See fig 5 on index.html for how I learned to imput gifs as backgrounds*/
+    /*See fig 6 on index.html for .gif source*/
+    background-image: url(https://media.giphy.com/media/TxVVB6PfWMjE4/giphy.gif)
+}
+
+/*See fig 7 on index.html for font source, for the import code I used the same as the peer product page exersise from class time*/
+@font-face {
+    font-family: comic;
+    src: url(LDFComicSansBold.ttf);
+}
+
+/*See Fig 8 on index.html for code imput for gif in text*/
+/*See Fig 9 on index.html for .gif source*/
+h1 {
+    font-size: 300%;
+    font-family: comic;
+    letter-spacing: 2px;
+
+    background: url(https://media.giphy.com/media/3otO6NFBIAFg2vPZuM/giphy.gif);
+    background-size: 100%;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}
+
+/*See fig 7 on index.html for font source, for the import code I used the same as the peer product page exersise from class time*/
+@font-face {
+    font-family: comic-nml;
+    src: url(LDFComicSans.ttf);
+}
+h2 {
+    color: white;
+    opacity: 90%;
+    letter-spacing: 2px;
+    font-family: comic-nml;
+}
+
+header {
+    height: auto;
+    width: 100%;
+
+    margin-top: 5%;
+    margin-bottom: 2%;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+
+.Hero {
+    background-color: brown;
+    height: 25vh;
+    margin-bottom: 5%;
+}
+
+
+
+/*See Fig 4 on index.html for where I learned how to space out collums*/
+.Containers {
+    height: auto;
+    width: auto;
+    display: grid;
+    grid-template-columns: 31% 31% 31%;
+    column-gap: 3.5%; 
+    row-gap: 3.5%;
+    text-align: center; 
+}
+
+.content-box {
+    background-color: rgb(228, 225, 17);
+    height: min-content;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 3%;
+    padding-bottom: 3%;
+
+}
+
+button {
+    background-color: gold;
+    text-size-adjust: 80%;
+}
